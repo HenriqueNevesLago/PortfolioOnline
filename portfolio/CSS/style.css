@@ -37,27 +37,34 @@ header {
     list-style: none;
 }
 /* Section HOME */
-.p1, .p2, .p3, .p4, .p5{
-    margin: 0 15%;
+.p1, .p2, .p3, .p4, .p5 {
+    width: 80%;
+    margin: 2% 40%;
+
 }
 .p2 {
     font-size: 33px;
 }
 .p3 {
-    width: 25%;
+    width: 80%;
     font-size: 12px;
     text-align: justify;
 }
 
 .p4 {
-    margin: 2% 0 0 15%;
+    margin: 2% 0 0 68%;
 }
 .p5 {
-    margin: 2% 0 0 1%;
+    margin: 2% 0 0 10%;
 }
 .teste {
     display: flex;
 }
 .sectionHOME {
     margin: 13% 0 0 0;
+}
+.corpoFlex {
+    width: 81%;
+    display: flex;
+    justify-content: space-between;
 }
