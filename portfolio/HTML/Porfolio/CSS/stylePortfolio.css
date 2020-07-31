@@ -1,0 +1,28 @@
+.nome, .localizacao {
+    text-align: center;
+}
+.nome {
+    margin: 5% 0 0 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+.dPessoal {
+    display: flex;
+    justify-content: center;
+}
+.estCivil, .idade {
+    padding: 1% 2%;
+    font-size: 30px;
+}
+.localizacao {
+    padding: 1% 0;
+    font-size: 25px;
+}
+.seta {
+    padding: 12% 0 0 0;
+    text-align: center;
+}
