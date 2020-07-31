@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rowdies', cursive;
+    box-sizing: border-box;
+    
+}
+body {
+    background-image: url("../images/fundoInicio.jpg");
+}
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+    width: 75%;
+}
+.logo {
+    font-size: 60px;
+    margin: 3% 7%;
+    color: #444;
+}
+.menu {
+    display: flex;
+} 
+.menu li a {
+    text-decoration: none;
+    color: #444;
+}
+.menu li a:hover {
+    color: #aaa;
+}
+.menu li {
+    margin: 0.2% 6%;
+    list-style: none;
+}
+/* Section HOME */
+.p1, .p2, .p3, .p4, .p5{
+    margin: 0 15%;
+}
+.p2 {
+    font-size: 33px;
+}
+.p3 {
+    width: 25%;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.p4 {
+    margin: 2% 0 0 15%;
+}
+.p5 {
+    margin: 2% 0 0 1%;
+}
+.teste {
+    display: flex;
+}
+.sectionHOME {
+    margin: 13% 0 0 0;
+}
